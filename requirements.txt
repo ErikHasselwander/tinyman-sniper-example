@@ -1,0 +1,3 @@
+git+https://github.com/tinymanorg/tinyman-py-sdk.git
+py-algorand-sdk
+pyyaml

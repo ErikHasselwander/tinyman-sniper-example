@@ -1,0 +1,10 @@
+LOADED: True
+GLOBAL_TIME: 1 # How many seconds we wait between updating info. Dont make this too low or you get 
+               # ratelimited, and a ratelimited/blocked sniper is not very accurate.
+ASSET: 378382099 # What asset you will snipe, ASA ID.
+
+#Buying. MIN_LIQ. and AMOUNT in microalgo, (1_000000 would be 1 algo)
+MIN_LIQUIDITY: 1_000000 # We only buy if there is more than this in the liquidity pool.
+MAX_PRICE: 0.1 # We only buy if price is cheaper than this, in algo/ASSET
+# Amount
+AMOUNT: 1_000000 # microlgos
