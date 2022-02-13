@@ -2,7 +2,7 @@
 Here is some example code of how one could implement a tinyman sniper.
 This is not to be used in production, it is only an example to give inspiration.
 
-Feel free to star and fork this code as much as you want, idk how to do licenses and shit but this code is free for use by everyone!
+Feel free to star and fork this code as much as you want, but the MIT license applies so if u fuckup thats on you!
 
 # Instructions
 1. Clone this repo and install the requirements, `pip install -r requirements.txt`
