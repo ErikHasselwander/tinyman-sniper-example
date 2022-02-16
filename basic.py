@@ -33,6 +33,12 @@ class printer:
 
 
 def optin(asset, tp):
+    if client.is_opted_in():
+        tp.pt(f'App is already opted in')
+    else:
+        optin_tx = client.prepare_app_optin_transactions()
+        optin_tx.sign_with_private_key(private.account['address'], private.account['private_key'])
+        result = client.submit(optin_tx, wait=True)
     if client.asset_is_opted_in(asset):
         tp.pt(f'Asset {asset} already opted in')
     else:
